@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:7000/';
+const baseUrl = 'https://delivery-system-1h5j.onrender.com';
 
 let emailInput = document.getElementById('emailInput')
 let nameInput = document.getElementById('nameInput')
@@ -24,7 +24,7 @@ submitButton.onclick = async () => {
 
 
 async function addUser(userData) {
-    let response = await fetch(`http://localhost:7000/addUser`, {
+    let response = await fetch(`https://delivery-system-1h5j.onrender.comaddUser`, {
         method: 'POST',
         body: JSON.stringify(userData),
         headers: {

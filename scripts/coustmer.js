@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:7000/';
+const baseUrl = 'https://delivery-system-1h5j.onrender.com';
 
 let mobile1Input = document.getElementById('mobile1Input')
 let nameInput = document.getElementById('nameInput')
