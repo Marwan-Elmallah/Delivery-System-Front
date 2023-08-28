@@ -24,7 +24,7 @@ submitButton.onclick = async () => {
 
 
 async function addUser(userData) {
-    let response = await fetch(`https://delivery-system-1h5j.onrender.comaddUser`, {
+    let response = await fetch(`${baseUrl}/addUser`, {
         method: 'POST',
         body: JSON.stringify(userData),
         headers: {

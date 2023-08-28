@@ -1,5 +1,5 @@
 async function getProducts() {
-    let response = await fetch(`https://delivery-system-1h5j.onrender.comallProducts`)
+    let response = await fetch(`https://delivery-system-1h5j.onrender.com/allProducts`)
     let data = await response.json()
     return data
 }

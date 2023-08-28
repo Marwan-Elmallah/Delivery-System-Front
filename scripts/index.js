@@ -1,6 +1,6 @@
 
 async function getCoutmers() {
-    let response = await fetch(`https://delivery-system-1h5j.onrender.comallCoustmers`)
+    let response = await fetch(`https://delivery-system-1h5j.onrender.com/allCoustmers`)
     let data = await response.json()
     return data
 }

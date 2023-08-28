@@ -1,4 +1,4 @@
-const baseUrl = 'https://delivery-system-1h5j.onrender.com';
+const baseUrl = 'https://delivery-system-1h5j.onrender.com/';
 
 let costInput = document.getElementById('costInput')
 let nameInput = document.getElementById('nameInput')
