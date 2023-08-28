@@ -18,7 +18,7 @@ submitButton.onclick = async () => {
 
     let response = await addUser(userData)
 
-    console.log(response);
+    // console.log(response);
 }
 
 
@@ -40,5 +40,5 @@ async function getAllUsers() {
     let response = await fetch(`${baseUrl}allUsers`)
     let data = await response.json()
 
-    console.log(data);
+    // console.log(data);
 }

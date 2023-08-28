@@ -29,5 +29,5 @@ async function handleSearch() {
             <td>${cst.address}</td>
         </tr>
 `)
-    console.log(findCST);
+    // console.log(findCST);
 }

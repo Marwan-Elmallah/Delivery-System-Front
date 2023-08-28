@@ -18,7 +18,7 @@ submitButton.onclick = async () => {
 
     let response = await addProduct(productData)
 
-    console.log(response);
+    // console.log(response);
 }
 
 

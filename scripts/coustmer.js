@@ -21,7 +21,7 @@ submitButton.onclick = async () => {
 
     let response = await addCST(CSTData)
 
-    console.log(response);
+    // console.log(response);
 }
 
 

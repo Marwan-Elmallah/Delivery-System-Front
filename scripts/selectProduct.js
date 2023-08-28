@@ -9,7 +9,7 @@ handleSearch()
 async function handleSearch() {
     listOfProducts.innerHTML = ""
     let Products = await getProducts()
-    console.log(Products, 'products');
+    // console.log(Products, 'products');
     var value = document.getElementById('searchValue').value;
     let findProduct = Products.filter((Product) => Product.name.startsWith(value))
     findProduct.map((Product) => listOfProducts.innerHTML += `
@@ -44,5 +44,5 @@ function getProductData(id = "not found", name = "not found", price = "not found
         price
     }
     localStorage.setItem("Product ID", JSON.stringify(lista))
-    console.log(lista);
+    // console.log(lista);
 }
