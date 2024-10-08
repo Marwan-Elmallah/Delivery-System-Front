@@ -13,7 +13,7 @@ const logMsg = (ID, name) => {
 
     localStorage.setItem("CST ID", JSON.stringify({ id: ID, name }))
     alert("You'll move to Select Products Now :D")
-    window.location = "selectProduct.html"
+    window.location = "./selectProduct.html"
 }
 handleSearch()
 async function handleSearch() {
