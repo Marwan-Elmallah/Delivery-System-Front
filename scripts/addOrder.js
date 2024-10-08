@@ -52,7 +52,7 @@ const createOrder = () => {
 }
 
 const addOrder = async (order) => {
-    let response = await fetch("https://delivery-system-1h5j.onrender.com/addOrder", {
+    let response = await fetch("https://mini-insta.onrender.com/addOrder", {
         method: 'POST',
         body: JSON.stringify(order),
         headers: {
