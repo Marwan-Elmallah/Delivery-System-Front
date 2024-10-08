@@ -7,7 +7,7 @@ let counter = {}
 let products = {}
 let OrderData;
 const generateProducts = async () => {
-    let response = await fetch("https://delivery-system-1h5j.onrender.com/allProducts")
+    let response = await fetch("https://mini-insta.onrender.com/allProducts")
     let data = await response.json()
     // console.log(data)
 }
