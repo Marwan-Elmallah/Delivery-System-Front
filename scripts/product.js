@@ -1,4 +1,4 @@
-const baseUrl = 'https://mini-insta.onrender.com/';
+const baseUrl = 'https://delivery-system-back.onrender.com/';
 
 let costInput = document.getElementById('costInput')
 let nameInput = document.getElementById('nameInput')
