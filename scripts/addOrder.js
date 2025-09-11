@@ -7,7 +7,7 @@ let counter = {}
 let products = {}
 let OrderData;
 const generateProducts = async () => {
-    let response = await fetch("https://mini-insta.onrender.com/allProducts")
+    let response = await fetch("https://delivery-system-back.onrender.com/allProducts")
     let data = await response.json()
     // console.log(data)
 }
@@ -52,7 +52,7 @@ const createOrder = () => {
 }
 
 const addOrder = async (order) => {
-    let response = await fetch("https://mini-insta.onrender.com/addOrder", {
+    let response = await fetch("https://delivery-system-back.onrender.com/addOrder", {
         method: 'POST',
         body: JSON.stringify(order),
         headers: {
