@@ -1,4 +1,4 @@
-const baseUrl = 'https://mini-insta.onrender.com';
+const baseUrl = 'https://delivery-system-back.onrender.com';
 
 let emailInput = document.getElementById('emailInput')
 let nameInput = document.getElementById('nameInput')
@@ -37,7 +37,7 @@ async function addUser(userData) {
 
 // getAllUsers()
 async function getAllUsers() {
-    let response = await fetch(`${baseUrl}allUsers`)
+    let response = await fetch(`${baseUrl}/allUsers`)
     let data = await response.json()
 
     // console.log(data);
